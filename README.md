@@ -10,7 +10,7 @@ The 'index.ts' is just a simple presentation, to see real results run 'npm run t
 
 Also check '/log/main.log' file.
 
-Basically, there is two main scripts about this application, Filler.ts and Migrator.ts.
+Basically, there is three main scripts about this application, Filler.ts and Migrator.ts.
 
 
 	## Filler
