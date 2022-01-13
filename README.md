@@ -13,12 +13,11 @@ Also check '/log/main.log' file.
 Basically, there is two main scripts about this application, Filler.ts and Migrator.ts.
 
 
-	# Filler
+	## Filler
 	Filler class is a instance used to fill a MongoDB colection with a .JSON entry.
 
 		# constructor
-		Initiate mongo client receiving a object containing	the proper connection config.
-		
+		Initiate Mongo client receiving a object containing	the proper connection config.
 		/** 
 		*	mongo_conn : any = {
 		*			db_url 	: string (mongo database url)
@@ -26,55 +25,50 @@ Basically, there is two main scripts about this application, Filler.ts and Migra
 		*		}
 		*/
 		
+		# getMongoClient
+		Return mongo client.
+		/** 
+		*	
+		*/
+		
+		# getMongoDatabase
+		Return mongo database.
+		/** 
+		*	
+		*/
 
 		# fillMongoCollection
-		This is the only method in class besides your own constructor.
-		
 		It will save in MongoDB the JSON entries, just updating the fields
 		'created' and 'updated'.
-		
 		/** 
 		*	entries 	: any 	(JSON with entries for MongoDB collection)
 		*	coll_name 	: string(MongoDB collection name)
 		*/
 
 
-	# Migrator
-	Migrator class contains the principle of the app. It is responsible to access and delete
-	data inside MySQL and MongoDB. Besides, it does the migration of a collection to a table.
-	
-	
-		# getMongoCollection
-		Return a specified collection from MongoDB through a Promise.
+	## Migrator
+	Migrator class contains the principle of the app, the migration of a collection to a table.
 		
+		# constructor
+		Initiate MySQL client receiving a object containing	the proper connection config.
 		/** 
-		*	coll_name : string (MongoDB collection name)
+		*	mysql_conn : any = {
+		*			host : string (mysql host url)
+		*			user : string (mysql user name)
+		*			pass : string (mysql password)
+		*			db 	 : string (mysql database name)
+		*		}
 		*/
 	
-		# deleteMongoCollection
-		Delete a specified collection from MongoDB.
+		# getMysqlClient
+		Return MySQL client.
 		
 		/** 
-		*	coll_name : string (MongoDB collection name)
+		*	
 		*/
 	
-		# getMysqlTable
-		Return a specified table from MySQL through a CallBack.
-		
-		/** 
-		*	table_name 	: string (MySQL table name)
-		*	returnTable	: call back method
-		*/
-	
-		# deleteMysqlTable
-		Delete a specified table from MySQL.
-		
-		/** 
-		*	table_name : string (MySQL table name)
-		*/
-	
-		# convertMongoToMysql
-		Copy a MongoDB collection to a MySQL table
+		# migrateMongoToMysql
+		Copy a Mongo collection to a MySQL table
 		
 		/** 
 		*	coll 		: any 		(MongoDB collection to be migrated)
@@ -84,4 +78,65 @@ Basically, there is two main scripts about this application, Filler.ts and Migra
 		*									for MySQL insert format. EX: 
 		*									"name VARCHAR(100), created TIMESTAMP, updated TIMESTAMP")
 		*				}
+		*/
+		
+		
+	## Helper
+		Helper is responsible to access and delete data inside MySQL and MongoDB.
+		
+		The correct way to use it is passing a Migrator and Filler respective clients
+		to not run two different clients in different instances, causing asynchronous
+		issues.
+		
+		# constructor
+		Initiate Mongo client and MySQL client with Filler and Migrator instances.
+		
+		If not inserted none, can be setted wit 'setMongoClient', 'setMongoDatabase'
+		and 'setMysqlClient'.
+		/** 
+		*	filler? 	: Filler (Filler instance)
+		*	migrator? 	: Migrator (Migrator instance)
+		*/
+		
+		# setMongoClient
+		Set in Helper object a new Mongo client.
+		/** 
+		*	mongo_client : MongoClient (MongoDB client)
+		*/
+		
+		# setMongoDatabase
+		Set in Helper object a new Mongo database.
+		/** 
+		*	mongo_database : any (MongoDB database)
+		*/
+		
+		# setMysqlClient
+		Set in Helper object a new Mongo client.
+		/** 
+		*	mysql_client : any (MySQL client)
+		*/
+	
+		# getMongoCollection
+		Return a specified collection from MongoDB through a Promise.
+		/** 
+		*	coll_name : string (MongoDB collection name)
+		*/
+	
+		# delMongoCollection
+		Delete a specified collection from MongoDB.
+		/** 
+		*	coll_name : string (MongoDB collection name)
+		*/
+	
+		# getMysqlTable
+		Return a specified table from MySQL through a CallBack.
+		/** 
+		*	table_name 	: string (MySQL table name)
+		*	returnTable	: call back method
+		*/
+	
+		# delMysqlTable
+		Delete a specified table from MySQL.
+		/** 
+		*	table_name : string (MySQL table name)
 		*/
