@@ -1,0 +1,52 @@
+[
+	{
+		"_id": "0",
+		"value": 79.99,
+		"user_id": "0",
+		"accepted": 1,
+		"freight": 15.00,
+		"store_id": "0",
+		"created": "",
+		"updated": ""
+	},
+	{
+		"_id": "1",
+		"value": 20.51,
+		"user_id": "0",
+		"accepted": 1,
+		"freight": 0.00,
+		"store_id": "3",
+		"created": "",
+		"updated": ""
+	},
+	{
+		"_id": "2",
+		"value": 32.99,
+		"user_id": "1",
+		"accepted": 0,
+		"freight": 200.00,
+		"store_id": "5",
+		"created": "",
+		"updated": ""
+	},
+	{
+		"_id": "3",
+		"value": 162.90,
+		"user_id": "0",
+		"accepted": 1,
+		"freight": 5.20,
+		"store_id": "2",
+		"created": "",
+		"updated": ""
+	},
+	{
+		"_id": "4",
+		"value": 79.99,
+		"user_id": "0",
+		"accepted": 0,
+		"freight": 120.90,
+		"store_id": "2",
+		"created": "",
+		"updated": ""
+	}
+]

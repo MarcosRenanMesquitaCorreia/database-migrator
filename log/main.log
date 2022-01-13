@@ -1,0 +1,438 @@
+[2022-Jan-12 22:30:38] [info]: entries inserted in MongoDB collection 'users': 
+[
+    {
+        "_id": "0",
+        "name": "Marcos Renan",
+        "email": "marcosrenanmesquitacorreia@gmail.com",
+        "phones": "988617179,26277179",
+        "birthday": "1999-11-16",
+        "created": "2022-01-13 01:30:38",
+        "updated": "2022-01-13 01:30:38"
+    },
+    {
+        "_id": "1",
+        "name": "Julia Andrade",
+        "email": "juliaandrade@gmail.com",
+        "phones": "977546297,34778661",
+        "birthday": "2000-8-20",
+        "created": "2022-01-13 01:30:38",
+        "updated": "2022-01-13 01:30:38"
+    },
+    {
+        "_id": "2",
+        "name": "Karla da Silva",
+        "email": "karlasilva@gmail.com",
+        "phones": "999485876",
+        "birthday": "1993-5-2",
+        "created": "2022-01-13 01:30:38",
+        "updated": "2022-01-13 01:30:38"
+    },
+    {
+        "_id": "3",
+        "name": "Ana Beatriz",
+        "email": "aninha@hotmail.com",
+        "phones": "997345567",
+        "birthday": "1998-10-7",
+        "created": "2022-01-13 01:30:38",
+        "updated": "2022-01-13 01:30:38"
+    }
+]
+[2022-Jan-12 22:30:39] [info]: entries inserted in MongoDB collection 'stores': 
+[
+    {
+        "_id": "0",
+        "name": "Au Que Mia",
+        "site": "auquemiaveterinaria.com.br",
+        "created": "2022-01-13 01:30:38",
+        "updated": "2022-01-13 01:30:38"
+    },
+    {
+        "_id": "1",
+        "name": "Épou",
+        "site": "epouararuama.com.br",
+        "created": "2022-01-13 01:30:38",
+        "updated": "2022-01-13 01:30:38"
+    },
+    {
+        "_id": "2",
+        "name": "Shop15",
+        "site": "shop15.com.br",
+        "created": "2022-01-13 01:30:38",
+        "updated": "2022-01-13 01:30:38"
+    },
+    {
+        "_id": "3",
+        "name": "Puro Suco",
+        "site": "purosuco.com.br",
+        "created": "2022-01-13 01:30:38",
+        "updated": "2022-01-13 01:30:38"
+    },
+    {
+        "_id": "4",
+        "name": "PUB Cadinho",
+        "site": "pubcadinho.com.br",
+        "created": "2022-01-13 01:30:38",
+        "updated": "2022-01-13 01:30:38"
+    },
+    {
+        "_id": "5",
+        "name": "RRC Cosméticos",
+        "site": "rrccosmeticos.com.br",
+        "created": "2022-01-13 01:30:38",
+        "updated": "2022-01-13 01:30:38"
+    }
+]
+[2022-Jan-12 22:30:39] [info]: entries inserted in MongoDB collection 'purchases': 
+[
+    {
+        "_id": "0",
+        "value": 79.99,
+        "user_id": "0",
+        "accepted": 1,
+        "freight": 15,
+        "store_id": "0",
+        "created": "2022-01-13 01:30:39",
+        "updated": "2022-01-13 01:30:39"
+    },
+    {
+        "_id": "1",
+        "value": 20.51,
+        "user_id": "0",
+        "accepted": 1,
+        "freight": 0,
+        "store_id": "3",
+        "created": "2022-01-13 01:30:39",
+        "updated": "2022-01-13 01:30:39"
+    },
+    {
+        "_id": "2",
+        "value": 32.99,
+        "user_id": "1",
+        "accepted": 0,
+        "freight": 200,
+        "store_id": "5",
+        "created": "2022-01-13 01:30:39",
+        "updated": "2022-01-13 01:30:39"
+    },
+    {
+        "_id": "3",
+        "value": 162.9,
+        "user_id": "0",
+        "accepted": 1,
+        "freight": 5.2,
+        "store_id": "2",
+        "created": "2022-01-13 01:30:39",
+        "updated": "2022-01-13 01:30:39"
+    },
+    {
+        "_id": "4",
+        "value": 79.99,
+        "user_id": "0",
+        "accepted": 0,
+        "freight": 120.9,
+        "store_id": "2",
+        "created": "2022-01-13 01:30:39",
+        "updated": "2022-01-13 01:30:39"
+    }
+]
+[2022-Jan-12 22:30:40] [debug]: initing table 'users', result: {"fieldCount":0,"affectedRows":0,"insertId":0,"serverStatus":2,"warningCount":0,"message":"","protocol41":true,"changedRows":0}
+[2022-Jan-12 22:30:40] [debug]: inserting new entry in table 'users', entry: 
+{
+    "_id": "0",
+    "name": "Marcos Renan",
+    "email": "marcosrenanmesquitacorreia@gmail.com",
+    "phones": "988617179,26277179",
+    "birthday": "1999-11-16",
+    "created": "2022-01-13 01:30:38",
+    "updated": "2022-01-13 01:30:38"
+}
+[2022-Jan-12 22:30:40] [debug]: inserting collection entry in table 'users', result: {"fieldCount":0,"affectedRows":1,"insertId":0,"serverStatus":2,"warningCount":0,"message":"","protocol41":true,"changedRows":0}
+[2022-Jan-12 22:30:40] [debug]: inserting new entry in table 'users', entry: 
+{
+    "_id": "1",
+    "name": "Julia Andrade",
+    "email": "juliaandrade@gmail.com",
+    "phones": "977546297,34778661",
+    "birthday": "2000-8-20",
+    "created": "2022-01-13 01:30:38",
+    "updated": "2022-01-13 01:30:38"
+}
+[2022-Jan-12 22:30:40] [debug]: inserting collection entry in table 'users', result: {"fieldCount":0,"affectedRows":1,"insertId":0,"serverStatus":2,"warningCount":0,"message":"","protocol41":true,"changedRows":0}
+[2022-Jan-12 22:30:40] [debug]: inserting new entry in table 'users', entry: 
+{
+    "_id": "2",
+    "name": "Karla da Silva",
+    "email": "karlasilva@gmail.com",
+    "phones": "999485876",
+    "birthday": "1993-5-2",
+    "created": "2022-01-13 01:30:38",
+    "updated": "2022-01-13 01:30:38"
+}
+[2022-Jan-12 22:30:40] [debug]: inserting collection entry in table 'users', result: {"fieldCount":0,"affectedRows":1,"insertId":0,"serverStatus":2,"warningCount":0,"message":"","protocol41":true,"changedRows":0}
+[2022-Jan-12 22:30:40] [debug]: inserting new entry in table 'users', entry: 
+{
+    "_id": "3",
+    "name": "Ana Beatriz",
+    "email": "aninha@hotmail.com",
+    "phones": "997345567",
+    "birthday": "1998-10-7",
+    "created": "2022-01-13 01:30:38",
+    "updated": "2022-01-13 01:30:38"
+}
+[2022-Jan-12 22:30:40] [debug]: inserting collection entry in table 'users', result: {"fieldCount":0,"affectedRows":1,"insertId":0,"serverStatus":2,"warningCount":0,"message":"","protocol41":true,"changedRows":0}
+[2022-Jan-12 22:30:40] [info]: selecting all entries of table 'users', result: 
+[
+    {
+        "_id": "0",
+        "name": "Marcos Renan",
+        "email": "marcosrenanmesquitacorreia@gmail.com",
+        "phones": "988617179,26277179",
+        "birthday": "1999-11-16",
+        "created": "2022-01-13 01:30:38",
+        "updated": "2022-01-13 01:30:38"
+    },
+    {
+        "_id": "1",
+        "name": "Julia Andrade",
+        "email": "juliaandrade@gmail.com",
+        "phones": "977546297,34778661",
+        "birthday": "2000-8-20",
+        "created": "2022-01-13 01:30:38",
+        "updated": "2022-01-13 01:30:38"
+    },
+    {
+        "_id": "2",
+        "name": "Karla da Silva",
+        "email": "karlasilva@gmail.com",
+        "phones": "999485876",
+        "birthday": "1993-5-2",
+        "created": "2022-01-13 01:30:38",
+        "updated": "2022-01-13 01:30:38"
+    },
+    {
+        "_id": "3",
+        "name": "Ana Beatriz",
+        "email": "aninha@hotmail.com",
+        "phones": "997345567",
+        "birthday": "1998-10-7",
+        "created": "2022-01-13 01:30:38",
+        "updated": "2022-01-13 01:30:38"
+    }
+]
+[2022-Jan-12 22:30:40] [debug]: initing table 'stores', result: {"fieldCount":0,"affectedRows":0,"insertId":0,"serverStatus":2,"warningCount":0,"message":"","protocol41":true,"changedRows":0}
+[2022-Jan-12 22:30:40] [debug]: inserting new entry in table 'stores', entry: 
+{
+    "_id": "0",
+    "name": "Au Que Mia",
+    "site": "auquemiaveterinaria.com.br",
+    "created": "2022-01-13 01:30:38",
+    "updated": "2022-01-13 01:30:38"
+}
+[2022-Jan-12 22:30:40] [debug]: inserting collection entry in table 'stores', result: {"fieldCount":0,"affectedRows":1,"insertId":0,"serverStatus":2,"warningCount":0,"message":"","protocol41":true,"changedRows":0}
+[2022-Jan-12 22:30:41] [debug]: inserting new entry in table 'stores', entry: 
+{
+    "_id": "1",
+    "name": "Épou",
+    "site": "epouararuama.com.br",
+    "created": "2022-01-13 01:30:38",
+    "updated": "2022-01-13 01:30:38"
+}
+[2022-Jan-12 22:30:41] [debug]: inserting collection entry in table 'stores', result: {"fieldCount":0,"affectedRows":1,"insertId":0,"serverStatus":2,"warningCount":0,"message":"","protocol41":true,"changedRows":0}
+[2022-Jan-12 22:30:41] [debug]: inserting new entry in table 'stores', entry: 
+{
+    "_id": "2",
+    "name": "Shop15",
+    "site": "shop15.com.br",
+    "created": "2022-01-13 01:30:38",
+    "updated": "2022-01-13 01:30:38"
+}
+[2022-Jan-12 22:30:41] [debug]: inserting collection entry in table 'stores', result: {"fieldCount":0,"affectedRows":1,"insertId":0,"serverStatus":2,"warningCount":0,"message":"","protocol41":true,"changedRows":0}
+[2022-Jan-12 22:30:41] [debug]: inserting new entry in table 'stores', entry: 
+{
+    "_id": "3",
+    "name": "Puro Suco",
+    "site": "purosuco.com.br",
+    "created": "2022-01-13 01:30:38",
+    "updated": "2022-01-13 01:30:38"
+}
+[2022-Jan-12 22:30:41] [debug]: inserting collection entry in table 'stores', result: {"fieldCount":0,"affectedRows":1,"insertId":0,"serverStatus":2,"warningCount":0,"message":"","protocol41":true,"changedRows":0}
+[2022-Jan-12 22:30:41] [debug]: inserting new entry in table 'stores', entry: 
+{
+    "_id": "4",
+    "name": "PUB Cadinho",
+    "site": "pubcadinho.com.br",
+    "created": "2022-01-13 01:30:38",
+    "updated": "2022-01-13 01:30:38"
+}
+[2022-Jan-12 22:30:41] [debug]: inserting collection entry in table 'stores', result: {"fieldCount":0,"affectedRows":1,"insertId":0,"serverStatus":2,"warningCount":0,"message":"","protocol41":true,"changedRows":0}
+[2022-Jan-12 22:30:41] [debug]: inserting new entry in table 'stores', entry: 
+{
+    "_id": "5",
+    "name": "RRC Cosméticos",
+    "site": "rrccosmeticos.com.br",
+    "created": "2022-01-13 01:30:38",
+    "updated": "2022-01-13 01:30:38"
+}
+[2022-Jan-12 22:30:41] [debug]: inserting collection entry in table 'stores', result: {"fieldCount":0,"affectedRows":1,"insertId":0,"serverStatus":2,"warningCount":0,"message":"","protocol41":true,"changedRows":0}
+[2022-Jan-12 22:30:41] [info]: selecting all entries of table 'stores', result: 
+[
+    {
+        "_id": "0",
+        "name": "Au Que Mia",
+        "site": "auquemiaveterinaria.com.br",
+        "created": "2022-01-13 01:30:38",
+        "updated": "2022-01-13 01:30:38"
+    },
+    {
+        "_id": "1",
+        "name": "Épou",
+        "site": "epouararuama.com.br",
+        "created": "2022-01-13 01:30:38",
+        "updated": "2022-01-13 01:30:38"
+    },
+    {
+        "_id": "2",
+        "name": "Shop15",
+        "site": "shop15.com.br",
+        "created": "2022-01-13 01:30:38",
+        "updated": "2022-01-13 01:30:38"
+    },
+    {
+        "_id": "3",
+        "name": "Puro Suco",
+        "site": "purosuco.com.br",
+        "created": "2022-01-13 01:30:38",
+        "updated": "2022-01-13 01:30:38"
+    },
+    {
+        "_id": "4",
+        "name": "PUB Cadinho",
+        "site": "pubcadinho.com.br",
+        "created": "2022-01-13 01:30:38",
+        "updated": "2022-01-13 01:30:38"
+    },
+    {
+        "_id": "5",
+        "name": "RRC Cosméticos",
+        "site": "rrccosmeticos.com.br",
+        "created": "2022-01-13 01:30:38",
+        "updated": "2022-01-13 01:30:38"
+    }
+]
+[2022-Jan-12 22:30:41] [debug]: initing table 'purchases', result: {"fieldCount":0,"affectedRows":0,"insertId":0,"serverStatus":2,"warningCount":0,"message":"","protocol41":true,"changedRows":0}
+[2022-Jan-12 22:30:41] [debug]: inserting new entry in table 'purchases', entry: 
+{
+    "_id": "0",
+    "value": 79.99,
+    "user_id": "0",
+    "accepted": 1,
+    "freight": 15,
+    "store_id": "0",
+    "created": "2022-01-13 01:30:39",
+    "updated": "2022-01-13 01:30:39"
+}
+[2022-Jan-12 22:30:41] [debug]: inserting collection entry in table 'purchases', result: {"fieldCount":0,"affectedRows":1,"insertId":0,"serverStatus":2,"warningCount":0,"message":"","protocol41":true,"changedRows":0}
+[2022-Jan-12 22:30:41] [debug]: inserting new entry in table 'purchases', entry: 
+{
+    "_id": "1",
+    "value": 20.51,
+    "user_id": "0",
+    "accepted": 1,
+    "freight": 0,
+    "store_id": "3",
+    "created": "2022-01-13 01:30:39",
+    "updated": "2022-01-13 01:30:39"
+}
+[2022-Jan-12 22:30:41] [debug]: inserting collection entry in table 'purchases', result: {"fieldCount":0,"affectedRows":1,"insertId":0,"serverStatus":2,"warningCount":0,"message":"","protocol41":true,"changedRows":0}
+[2022-Jan-12 22:30:41] [debug]: inserting new entry in table 'purchases', entry: 
+{
+    "_id": "2",
+    "value": 32.99,
+    "user_id": "1",
+    "accepted": 0,
+    "freight": 200,
+    "store_id": "5",
+    "created": "2022-01-13 01:30:39",
+    "updated": "2022-01-13 01:30:39"
+}
+[2022-Jan-12 22:30:41] [debug]: inserting collection entry in table 'purchases', result: {"fieldCount":0,"affectedRows":1,"insertId":0,"serverStatus":2,"warningCount":0,"message":"","protocol41":true,"changedRows":0}
+[2022-Jan-12 22:30:41] [debug]: inserting new entry in table 'purchases', entry: 
+{
+    "_id": "3",
+    "value": 162.9,
+    "user_id": "0",
+    "accepted": 1,
+    "freight": 5.2,
+    "store_id": "2",
+    "created": "2022-01-13 01:30:39",
+    "updated": "2022-01-13 01:30:39"
+}
+[2022-Jan-12 22:30:41] [debug]: inserting collection entry in table 'purchases', result: {"fieldCount":0,"affectedRows":1,"insertId":0,"serverStatus":2,"warningCount":0,"message":"","protocol41":true,"changedRows":0}
+[2022-Jan-12 22:30:41] [debug]: inserting new entry in table 'purchases', entry: 
+{
+    "_id": "4",
+    "value": 79.99,
+    "user_id": "0",
+    "accepted": 0,
+    "freight": 120.9,
+    "store_id": "2",
+    "created": "2022-01-13 01:30:39",
+    "updated": "2022-01-13 01:30:39"
+}
+[2022-Jan-12 22:30:41] [debug]: inserting collection entry in table 'purchases', result: {"fieldCount":0,"affectedRows":1,"insertId":0,"serverStatus":2,"warningCount":0,"message":"","protocol41":true,"changedRows":0}
+[2022-Jan-12 22:30:41] [info]: selecting all entries of table 'purchases', result: 
+[
+    {
+        "_id": "0",
+        "value": 79.99,
+        "user_id": "0",
+        "accepted": 1,
+        "freight": 15,
+        "store_id": "0",
+        "created": "2022-01-13 01:30:39",
+        "updated": "2022-01-13 01:30:39"
+    },
+    {
+        "_id": "1",
+        "value": 20.51,
+        "user_id": "0",
+        "accepted": 1,
+        "freight": 0,
+        "store_id": "3",
+        "created": "2022-01-13 01:30:39",
+        "updated": "2022-01-13 01:30:39"
+    },
+    {
+        "_id": "2",
+        "value": 32.99,
+        "user_id": "1",
+        "accepted": 0,
+        "freight": 200,
+        "store_id": "5",
+        "created": "2022-01-13 01:30:39",
+        "updated": "2022-01-13 01:30:39"
+    },
+    {
+        "_id": "3",
+        "value": 162.9,
+        "user_id": "0",
+        "accepted": 1,
+        "freight": 5.2,
+        "store_id": "2",
+        "created": "2022-01-13 01:30:39",
+        "updated": "2022-01-13 01:30:39"
+    },
+    {
+        "_id": "4",
+        "value": 79.99,
+        "user_id": "0",
+        "accepted": 0,
+        "freight": 120.9,
+        "store_id": "2",
+        "created": "2022-01-13 01:30:39",
+        "updated": "2022-01-13 01:30:39"
+    }
+]
+[2022-Jan-12 22:30:42] [debug]: dropping table 'users', result: {"fieldCount":0,"affectedRows":0,"insertId":0,"serverStatus":2,"warningCount":0,"message":"","protocol41":true,"changedRows":0}
+[2022-Jan-12 22:30:42] [debug]: dropping table 'stores', result: {"fieldCount":0,"affectedRows":0,"insertId":0,"serverStatus":2,"warningCount":0,"message":"","protocol41":true,"changedRows":0}
+[2022-Jan-12 22:30:42] [debug]: dropping table 'purchases', result: {"fieldCount":0,"affectedRows":0,"insertId":0,"serverStatus":2,"warningCount":0,"message":"","protocol41":true,"changedRows":0}

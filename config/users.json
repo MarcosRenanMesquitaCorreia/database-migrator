@@ -1,0 +1,38 @@
+[
+	{
+		"_id":"0",
+		"name": "Marcos Renan",
+		"email": "marcosrenanmesquitacorreia@gmail.com",
+		"phones": "988617179,26277179",
+		"birthday": "1999-11-16",
+		"created": "",
+		"updated": ""
+	},
+	{
+		"_id":"1",
+		"name": "Julia Andrade",
+		"email": "juliaandrade@gmail.com",
+		"phones": "977546297,34778661",
+		"birthday": "2000-8-20",
+		"created": "",
+		"updated": ""
+	},
+	{
+		"_id":"2",
+		"name": "Karla da Silva",
+		"email": "karlasilva@gmail.com",
+		"phones": "999485876",
+		"birthday": "1993-5-2",
+		"created": "",
+		"updated": ""
+	},
+	{
+		"_id":"3",
+		"name": "Ana Beatriz",
+		"email": "aninha@hotmail.com",
+		"phones": "997345567",
+		"birthday": "1998-10-7",
+		"created": "",
+		"updated": ""
+	}
+]
