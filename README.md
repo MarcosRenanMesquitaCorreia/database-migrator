@@ -62,21 +62,20 @@ Basically, there is two main scripts about this application, Filler.ts and Migra
 	
 		# getMysqlClient
 		Return MySQL client.
-		
 		/** 
 		*	
 		*/
 	
 		# migrateMongoToMysql
 		Copy a Mongo collection to a MySQL table
-		
 		/** 
 		*	coll 		: any 		(MongoDB collection to be migrated)
 		*	coll_data 	: any = {	(MongoDB collection data for migration)
 		*					name 	: string (name of collection)
-		*					fields 	: string (fields of collection translated
-		*									for MySQL insert format. EX: 
-		*									"name VARCHAR(100), created TIMESTAMP, updated TIMESTAMP")
+		*					fields 	: string 
+		*					(fields of collection translated
+		*					for MySQL insert format. EX: 
+		*					"name VARCHAR(100), created TIMESTAMP, updated TIMESTAMP")
 		*				}
 		*/
 		

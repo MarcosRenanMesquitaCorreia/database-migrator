@@ -22,7 +22,6 @@ export class Helper {
 			this.setMongoClient(filler.getMongoClient());
 			this.setMongoDatabase(filler.getMongoDatabase());
 		}
-
 	}
 	
 	public setMongoClient(mongo_client : mongo.MongoClient) : void {

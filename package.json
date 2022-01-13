@@ -6,7 +6,6 @@
   "scripts": {
     "start": "ts-node ./index.ts",
     "test": "mocha --require ts-node/register ./test/main.ts",
-    "test1": "mocha --require ts-node/register ./test/test.ts"
   },
   "keywords": [
     "Typescript",
